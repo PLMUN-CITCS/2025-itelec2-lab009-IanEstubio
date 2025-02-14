@@ -4,10 +4,11 @@
 
 def main():
     """Main function to check the if the number is even or odd."""
+
+    user_input = input("Enter a number: ")
     
     try:
         
-       user_input = input("Enter a number: ")
     
        number = int(user_input)
     

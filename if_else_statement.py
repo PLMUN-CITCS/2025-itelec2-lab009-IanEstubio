@@ -3,24 +3,21 @@
 # Laboratory # 09 - Guided Coding Exercise: Simple if Statement in Python
 
 def main():
-    """Main function to check the if the number is even or odd."""
-
-    user_input = input("Enter a number: ")
+    """Main function to check if the number is even or odd."""
     
     try:
-        
-    
-       number = int(user_input)
-    
+        user_input = input("Enter a number: ")
+        number = int(user_input)
 
-        #code here
-       if number % 2 == 0:
-           print("The number", number, "is Even.")
-       else:
-           print("The number", number, "is Odd.")
-             
+        # Code to check even or odd
+        if number % 2 == 0:
+            print("The number", number, "is Even.")
+        else:
+            print("The number", number, "is Odd.")
+
     except ValueError:
-           print("Invalid input. Please enter an integer.")
-    
+        print("Invalid input. Please enter an integer.")
+
 if __name__ == "__main__":
     main()
+
